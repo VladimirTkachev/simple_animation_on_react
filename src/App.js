@@ -35,7 +35,7 @@ class App extends Component {
                 <a href="https://github.com/VladimirTkachev" target="blank">
                   <img src={webicon} alt="web" className={btn1} />
                 </a>
-                <a href="https://vladimirtkachev.github.io" target="blank">
+                <a href="https://www.google.ru/" target="blank">
                   <img src={purchaseicon} alt="tickets" className={btn2} />
                 </a>
                 <a href="https://spb.hh.ru/resume/56b08789ff0184a6ae0039ed1f713733764f6f" target="blank">    
