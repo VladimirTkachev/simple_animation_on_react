@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 17vh;
+  text-align: center;
+  margin: 0;
+}
+
+.wrp {
+  position: relative;
+}
+
+.red-btn {
+  background: url(./img/glossy_red_button.svg) no-repeat center/cover;
+  height: 32vh;
+  width: 32vh;
+  text-align: center;
+}
+
+.red-btn:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.btn-1, .btn-2, .btn-3 {
+  display: none;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.btn-1-a {
+  height: 32vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: to-point1;
+  animation-duration: 0.99s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes to-point1 {
+  
+  to {
+      transform: translateY(150%) translateX(-100%);
+  }
+}
+
+.btn-1-a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.btn-2-a {
+  height: 32vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: to-point2;
+  animation-duration: 0.99s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes to-point2 {
+  
+  to {
+      transform: translateY(150%);
+  }
+}
+
+.btn-2-a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.btn-3-a {
+  height: 32vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: to-point3;
+  animation-duration: 0.99s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes to-point3 {
+  
+  to {
+      transform: translateY(150%) translateX(100%);
+  }
+}
+
+.btn-3-a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
